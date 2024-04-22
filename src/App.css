@@ -22,6 +22,7 @@ body{
 .button button {
     flex-grow: 1;
     height: 100px;
+    font-size: 50px;
 }
 
 

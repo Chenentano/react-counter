@@ -38,10 +38,11 @@ function App() {
 
     return (
         <>
-            <h1 className="header">{message !== null ? message : count}</h1>
+            <h1 className="header">{message ?? count}</h1>
+            <h2 className="headerTwo">{count}</h2>
             <div className="button">
-                <button onClick={incrementCount}>+</button>
                 <button onClick={decrementCount}>-</button>
+                <button onClick={incrementCount}>+</button>
             </div>
         </>
     );
